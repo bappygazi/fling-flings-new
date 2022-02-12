@@ -1,0 +1,64 @@
+/*common part css*/
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@font-face {
+  src: url(../webfonts/Garnett-Black.ttf);
+  font-family: Garnett-Black;
+}
+
+@font-face {
+  src: url(../webfonts/Agrandir\ Text\ Bold\ 700.woff);
+  font-family: Agrandir-Bold;
+}
+
+@font-face {
+  src: url(../webfonts/Quick\ Marker.ttf);
+  font-family: Quick-Marker;
+}
+#flings-coming {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.logo-content,
+.main-content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+.logo-content .logo-name {
+}
+
+.logo-content .down-icon i {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  background-color: #dbdbdb;
+  filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.2));
+}
