@@ -38,14 +38,16 @@ a:hover {
   src: url(../webfonts/Quick\ Marker.ttf);
   font-family: Quick-Marker;
 }
-#flings-coming {
+/* #flings-coming {
   height: 100vh;
   overflow-y: scroll;
+  scroll-behavior: smooth;
+
   scroll-snap-type: y mandatory;
 }
 .logo-content,
 .main-content {
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,4 +63,21 @@ a:hover {
   line-height: 30px;
   background-color: #dbdbdb;
   filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.2));
+} */
+.logo-content {
+  background-image: linear-gradient(135deg, #a5a1a1 0%, #a5a1a1 51%, #c9c9c9 68%, #9c9c9c 100%);
+}
+.logo-content .down-icon i {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  background-color: #dbdbdb;
+  filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.2));
+}
+.logo-name img {
+  width: 70%;
+}
+.main-content {
+  background-color: #ff4c01;
 }
