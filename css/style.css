@@ -38,32 +38,6 @@ a:hover {
   src: url(../webfonts/Quick\ Marker.ttf);
   font-family: Quick-Marker;
 }
-/* #flings-coming {
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-
-  scroll-snap-type: y mandatory;
-}
-.logo-content,
-.main-content {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-.logo-content .logo-name {
-}
-
-.logo-content .down-icon i {
-  width: 30px;
-  height: 30px;
-  font-size: 24px;
-  line-height: 30px;
-  background-color: #dbdbdb;
-  filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.2));
-} */
 .logo-content {
   background-image: linear-gradient(135deg, #a5a1a1 0%, #a5a1a1 51%, #c9c9c9 68%, #9c9c9c 100%);
 }
@@ -75,9 +49,317 @@ a:hover {
   background-color: #dbdbdb;
   filter: drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.2));
 }
+
 .logo-name img {
   width: 70%;
 }
+.down-icon {
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+}
 .main-content {
   background-color: #ff4c01;
+}
+.main-content {
+  z-index: 5;
+  color: #fff6e8;
+}
+
+.main-cotent-text .coming-soon-text h3 {
+  font-size: 100px;
+  line-height: 100px;
+  color: #fff6e7;
+  font-family: Garnett-Black;
+}
+
+.main-cotent-text .coming-soon-text h4 {
+  font-size: 40px;
+  font-family: Quick-Marker;
+}
+
+.main-cotent-text .coming-soon-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: Agrandir-Bold;
+}
+
+.email-phone-box .form-control {
+  height: 60px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: #ff4c01 !important;
+  background-color: #fff6e8;
+  font-family: Agrandir-Bold;
+}
+
+.email-phone-box .form-control::placeholder {
+  color: #ff702a;
+}
+
+.email-phone-box .btn {
+  height: 60px;
+  width: 250px;
+  font-size: 25px;
+  border-radius: 8px;
+  color: #f44336;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #a5a1a1 0%, #a5a1a1 51%, #c9c9c9 68%, #9c9c9c 100%);
+  font-family: Quick-Marker;
+}
+
+.email-phone-box .btn:hover {
+  background-color: #3180d1;
+}
+.phone-number span {
+  top: 50%;
+  left: -40px;
+  font-size: 30px;
+  color: #fff6e8;
+  font-family: Agrandir-Bold;
+  transform: translateY(-50%);
+}
+.submit-btn span {
+  font-size: 18px;
+  font-family: Agrandir-Bold;
+}
+/* animation  */
+.strawberry-top {
+  top: 0;
+  right: -50px;
+  width: 140px;
+  height: 170px;
+  z-index: 0;
+  animation: bounce 2.8s ease infinite;
+}
+.food-icon {
+  top: 30%;
+  left: -135px;
+  width: 150px;
+  height: 125px;
+  z-index: 1;
+  animation: bounce 2.9s ease infinite;
+}
+.packag {
+  right: 0;
+  bottom: 0;
+  width: 152px;
+  height: 190px;
+  z-index: 1;
+  animation: bounce 2.9s ease infinite;
+}
+@keyframes bounce {
+  50% {
+    transform: translateY(-5%);
+  }
+}
+.footer-text {
+}
+.social-icon-icon img {
+  width: 30px;
+  height: 30px;
+}
+.footer-text a {
+  font-size: 18px;
+  color: #fff6e8;
+  font-family: Agrandir-Bold;
+}
+.footer-text p {
+  font-size: 18px;
+  color: #fff6e8;
+  font-family: Agrandir-Bold;
+}
+/*Medium devices (maobile  768px )*/
+@media (max-width: 767.98px) {
+  .main-cotent-text .coming-soon-text h3 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .main-cotent-text .coming-soon-text h4 {
+    font-size: 25px;
+  }
+  .main-cotent-text .coming-soon-text p {
+    font-size: 16px;
+    margin-bottom: 5px !important;
+    line-height: 20px;
+  }
+  .phone-number span {
+    left: -25px;
+    font-size: 20px;
+  }
+  .email-phone-box .form-control {
+    height: 50px;
+  }
+  .email-phone-box .btn {
+    height: 50px;
+    width: 150px;
+  }
+  .world-logo img {
+    width: 47px !important;
+  }
+  .world-logo {
+    padding: 35px 0;
+  }
+  .packag {
+    right: 0;
+    bottom: 35px;
+    width: 90px;
+  }
+  .strawberry-top {
+    right: 0;
+    width: 90px;
+  }
+  .footer-text a {
+    font-size: 15px;
+  }
+  .footer-text p {
+    font-size: 15px;
+  }
+  .food-icon {
+    top: 0;
+    left: -100px;
+  }
+}
+/*Small devices (landscape phones, 576px and up)*/
+/* @media (min-width: 576px) and (max-width: 767.98px) {
+} */
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-cotent-text .coming-soon-text h3 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px !important;
+  }
+  .main-cotent-text .coming-soon-text h4 {
+    font-size: 20px;
+    margin-bottom: 10px !important;
+  }
+  .main-cotent-text .coming-soon-text p {
+    font-size: 11px;
+    margin-bottom: 5px !important;
+    line-height: 5px;
+  }
+  .email-phone-box .form-control {
+    height: 35px;
+    font-size: 15px;
+    font-size: 12px;
+  }
+  .email-phone-box .btn {
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+  }
+  .phone-number span {
+    top: 50%;
+    left: -30px;
+    font-size: 20px;
+  }
+  .footer-text p {
+    font-size: 12px;
+  }
+  .footer-text a {
+    font-size: 12px;
+  }
+  .social-icon {
+    margin-bottom: 5px !important;
+  }
+  .social-icon a img {
+    height: 20px;
+    width: 20px;
+  }
+  .strawberry-top {
+    top: 0px;
+    right: -20px;
+    width: 90px;
+  }
+  .food-icon {
+    left: -70px;
+    width: 90px;
+  }
+  .packag {
+    right: 30px;
+    width: 90px;
+    bottom: -45px;
+  }
+  .footer-text {
+    line-height: 13px;
+  }
+}
+/*Large devices (laptop, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .logo-name img {
+    width: 50%;
+  }
+  .main-cotent-text .coming-soon-text h3 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 10px !important;
+  }
+  .main-cotent-text .coming-soon-text h4 {
+    font-size: 25px;
+    margin-bottom: 10px !important;
+  }
+  .main-cotent-text .coming-soon-text p {
+    font-size: 15px;
+    margin-bottom: 10px !important;
+  }
+  .email-phone-box .form-control {
+    height: 45px;
+    font-size: 15px;
+  }
+  .email-phone-box .btn {
+    height: 45px;
+    width: 160px;
+    font-size: 20px;
+  }
+  .phone-number span {
+    top: 50%;
+    left: -30px;
+    font-size: 20px;
+  }
+  .footer-text p {
+    font-size: 12px;
+  }
+  .footer-text a {
+    font-size: 12px;
+  }
+  .social-icon {
+    margin-bottom: 5px !important;
+  }
+  .social-icon a img {
+    height: 20px;
+    width: 20px;
+  }
+  .strawberry-top {
+    top: 20px;
+    right: -20px;
+    width: 90px;
+  }
+  .food-icon {
+    left: -70px;
+    width: 90px;
+  }
+  .packag {
+    right: 30px;
+    width: 90px;
+  }
+}
+/*Large devices (Desktop, 992px and up)*/
+@media (min-width: 1199.99px) and (max-width: 1399.99px) {
+  .logo-name img {
+    width: 60%;
+  }
+  .main-cotent-text .coming-soon-text h3 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .main-cotent-text .coming-soon-text p {
+    font-size: 19px;
+  }
+  .email-phone-box .form-control {
+    height: 55px;
+  }
+  .strawberry-top {
+    top: 5px;
+  }
 }
