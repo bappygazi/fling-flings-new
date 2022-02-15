@@ -225,6 +225,18 @@ a:hover {
 } */
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .logo-name {
+    padding-bottom: 50px;
+  }
+  .down-icon {
+    bottom: 20px;
+  }
+  .logo-content .down-icon i {
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 14px;
+  }
   .main-cotent-text .coming-soon-text h3 {
     font-size: 40px;
     line-height: 40px;
@@ -287,6 +299,18 @@ a:hover {
 }
 /*Large devices (laptop, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .logo-name {
+    padding-bottom: 50px;
+  }
+  .down-icon {
+    bottom: 20px;
+  }
+  .logo-content .down-icon i {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
   .logo-name img {
     width: 50%;
   }
