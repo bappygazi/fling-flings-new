@@ -193,10 +193,11 @@ a:hover {
     font-size: 20px;
   }
   .email-phone-box .form-control {
-    height: 50px;
+    height: 55px;
+    font-size: 18px;
   }
   .email-phone-box .btn {
-    height: 50px;
+    height: 55px;
     width: 150px;
   }
   .world-logo img {
