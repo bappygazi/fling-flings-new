@@ -65,7 +65,9 @@ a:hover {
   z-index: 5;
   color: #fff6e8;
 }
-
+.main-content-container {
+  transform: scale(0.85);
+}
 .main-cotent-text .coming-soon-text h3 {
   font-size: 100px;
   line-height: 100px;
@@ -126,7 +128,7 @@ a:hover {
 /* animation  */
 .strawberry-top {
   top: 0;
-  right: -50px;
+  right: -150px;
   width: 140px;
   height: 170px;
   z-index: 0;
@@ -134,14 +136,14 @@ a:hover {
 }
 .food-icon {
   top: 30%;
-  left: -135px;
+  left: -170px;
   width: 150px;
   height: 125px;
   z-index: 1;
   animation: bounce 2.9s ease infinite;
 }
 .packag {
-  right: 0;
+  right: -50px;
   bottom: 0;
   width: 152px;
   height: 190px;
@@ -171,9 +173,12 @@ a:hover {
 }
 /*Medium devices (maobile  768px )*/
 @media (max-width: 767.98px) {
+  .main-content-container {
+    transform: scale(0.85);
+  }
   .main-cotent-text .coming-soon-text h3 {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 75px;
+    line-height: 75px;
   }
   .main-cotent-text .coming-soon-text h4 {
     font-size: 25px;
@@ -203,11 +208,12 @@ a:hover {
   .packag {
     right: 0;
     bottom: 35px;
-    width: 90px;
+    width: 75px;
   }
   .strawberry-top {
-    right: 0;
-    width: 90px;
+    right: 28px;
+    width: 60px;
+    top: 13%;
   }
   .footer-text a {
     font-size: 15px;
@@ -216,8 +222,9 @@ a:hover {
     font-size: 15px;
   }
   .food-icon {
-    top: 0;
-    left: -100px;
+    top: -30px;
+    left: -45px;
+    width: 97px;
   }
 }
 /*Small devices (landscape phones, 576px and up)*/
@@ -285,7 +292,7 @@ a:hover {
     width: 90px;
   }
   .food-icon {
-    left: -70px;
+    left: -90px;
     width: 90px;
   }
   .packag {
@@ -315,8 +322,8 @@ a:hover {
     width: 50%;
   }
   .main-cotent-text .coming-soon-text h3 {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 70px;
+    line-height: 70px;
     margin-bottom: 10px !important;
   }
   .main-cotent-text .coming-soon-text h4 {
@@ -360,7 +367,7 @@ a:hover {
     width: 90px;
   }
   .food-icon {
-    left: -70px;
+    left: -90px;
     width: 90px;
   }
   .packag {
