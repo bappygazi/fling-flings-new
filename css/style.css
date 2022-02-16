@@ -181,12 +181,12 @@ a:hover {
     line-height: 75px;
   }
   .main-cotent-text .coming-soon-text h4 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .main-cotent-text .coming-soon-text p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 5px !important;
-    line-height: 20px;
+    line-height: 24px;
   }
   .phone-number span {
     left: -25px;
@@ -203,7 +203,8 @@ a:hover {
     width: 47px !important;
   }
   .world-logo {
-    padding: 35px 0;
+    padding-top: 60px;
+    padding-bottom: 30px;
   }
   .packag {
     right: 0;
