@@ -177,14 +177,14 @@ a:hover {
     transform: scale(0.85);
   }
   .main-cotent-text .coming-soon-text h3 {
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 65px;
+    line-height: 65px;
   }
   .main-cotent-text .coming-soon-text h4 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .main-cotent-text .coming-soon-text p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px !important;
     line-height: 24px;
   }
