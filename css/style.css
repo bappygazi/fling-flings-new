@@ -177,6 +177,7 @@ a:hover {
   .main-cotent-text .coming-soon-text h3 {
     font-size: 65px;
     line-height: 65px;
+    padding-top: 10px;
   }
   .main-cotent-text .coming-soon-text h4 {
     font-size: 25px;
@@ -192,7 +193,7 @@ a:hover {
   }
   .email-phone-box .form-control {
     height: 55px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .email-phone-box .btn {
     height: 55px;
@@ -202,7 +203,7 @@ a:hover {
     width: 47px !important;
   }
   .world-logo {
-    padding-top: 60px;
+    padding-top: 75px;
     padding-bottom: 30px;
   }
   .packag {
@@ -409,31 +410,46 @@ a:hover {
     transform: scale(0.9);
   }
   .footer-content {
-    padding-top: 25px;
+    padding-top: 30px;
   }
 }
 @media (min-width: 1600px) and (max-width: 1899.99px) {
   .main-content-container {
     transform: scale(1.05);
   }
+  .footer-content {
+    padding-top: 50px;
+  }
 }
 @media (min-width: 1900px) and (max-width: 2199.99px) {
   .main-content-container {
     transform: scale(1.2);
+  }
+  .footer-content {
+    padding-top: 70px;
   }
 }
 @media (min-width: 2200px) and (max-width: 2499.99px) {
   .main-content-container {
     transform: scale(1.35);
   }
+  .footer-content {
+    padding-top: 70px;
+  }
 }
 @media (min-width: 2500px) and (max-width: 2799.99px) {
   .main-content-container {
     transform: scale(1.45);
   }
+  .footer-content {
+    padding-top: 70px;
+  }
 }
 @media (min-width: 2800px) and (max-width: 2999.99px) {
   .main-content-container {
     transform: scale(1.7);
+  }
+  .footer-content {
+    padding-top: 70px;
   }
 }
