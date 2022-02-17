@@ -65,9 +65,7 @@ a:hover {
   z-index: 5;
   color: #fff6e8;
 }
-.main-content-container {
-  transform: scale(0.85);
-}
+
 .main-cotent-text .coming-soon-text h3 {
   font-size: 100px;
   line-height: 100px;
@@ -229,11 +227,11 @@ a:hover {
     width: 97px;
   }
 }
-/*Small devices (landscape phones, 576px and up)*/
-/* @media (min-width: 576px) and (max-width: 767.98px) {
-} */
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .main-content-container {
+    transform: scale(0.85);
+  }
   .logo-name {
     padding-bottom: 50px;
   }
@@ -308,6 +306,9 @@ a:hover {
 }
 /*Large devices (laptop, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .main-content-container {
+    transform: scale(0.85);
+  }
   .logo-name {
     padding-bottom: 50px;
   }
@@ -379,6 +380,9 @@ a:hover {
 }
 /*Large devices (Desktop, 992px and up)*/
 @media (min-width: 1199.99px) and (max-width: 1399.99px) {
+  .main-content-container {
+    transform: scale(0.85);
+  }
   .logo-name img {
     width: 60%;
   }
@@ -398,5 +402,23 @@ a:hover {
   }
   .strawberry-top {
     top: 5px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599.99px) {
+  .main-content-container {
+    transform: scale(0.9);
+  }
+  .footer-content {
+    padding-top: 25px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1899.99px) {
+  .main-content-container {
+    transform: scale(1.05);
+  }
+}
+@media (min-width: 1900px) and (max-width: 2199.99px) {
+  .main-content-container {
+    transform: scale(1.15);
   }
 }
