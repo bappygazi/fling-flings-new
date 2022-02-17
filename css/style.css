@@ -419,6 +419,21 @@ a:hover {
 }
 @media (min-width: 1900px) and (max-width: 2199.99px) {
   .main-content-container {
-    transform: scale(1.15);
+    transform: scale(1.2);
+  }
+}
+@media (min-width: 2200px) and (max-width: 2499.99px) {
+  .main-content-container {
+    transform: scale(1.35);
+  }
+}
+@media (min-width: 2500px) and (max-width: 2799.99px) {
+  .main-content-container {
+    transform: scale(1.45);
+  }
+}
+@media (min-width: 2800px) and (max-width: 2999.99px) {
+  .main-content-container {
+    transform: scale(1.7);
   }
 }
