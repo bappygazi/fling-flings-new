@@ -114,7 +114,7 @@ a:hover {
 .phone-number span {
   top: 50%;
   left: -40px;
-  font-size: 30px;
+  font-size: 20px;
   color: #fff6e8;
   font-family: Agrandir-Bold;
   transform: translateY(-50%);
@@ -203,7 +203,7 @@ a:hover {
     width: 47px !important;
   }
   .world-logo {
-    padding-top: 75px;
+    padding-top: 90px;
     padding-bottom: 30px;
   }
   .packag {
@@ -378,6 +378,9 @@ a:hover {
     right: 30px;
     width: 90px;
   }
+  .footer-content {
+    padding-top: 50px;
+  }
 }
 /*Large devices (Desktop, 992px and up)*/
 @media (min-width: 1199.99px) and (max-width: 1399.99px) {
@@ -404,6 +407,9 @@ a:hover {
   .strawberry-top {
     top: 5px;
   }
+  .footer-content {
+    padding-top: 70px;
+  }
 }
 @media (min-width: 1400px) and (max-width: 1599.99px) {
   .main-content-container {
@@ -418,7 +424,7 @@ a:hover {
     transform: scale(1.05);
   }
   .footer-content {
-    padding-top: 50px;
+    padding-top: 70px;
   }
 }
 @media (min-width: 1900px) and (max-width: 2199.99px) {
