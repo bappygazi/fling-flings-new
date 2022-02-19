@@ -153,19 +153,17 @@ a:hover {
     transform: translateY(-5%);
   }
 }
-.footer-text {
-}
 .social-icon-icon img {
   width: 30px;
   height: 30px;
 }
 .footer-text a {
-  font-size: 18px;
+  font-size: 16px;
   color: #fff6e8;
   font-family: Agrandir-Bold;
 }
 .footer-text p {
-  font-size: 18px;
+  font-size: 16px;
   color: #fff6e8;
   font-family: Agrandir-Bold;
 }
@@ -177,7 +175,7 @@ a:hover {
   .main-cotent-text .coming-soon-text h3 {
     font-size: 65px;
     line-height: 65px;
-    padding-top: 10px;
+    padding-top: 30px;
   }
   .main-cotent-text .coming-soon-text h4 {
     font-size: 25px;
@@ -189,7 +187,7 @@ a:hover {
   }
   .phone-number span {
     left: -25px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .email-phone-box .form-control {
     height: 55px;
@@ -203,7 +201,7 @@ a:hover {
     width: 47px !important;
   }
   .world-logo {
-    padding-top: 90px;
+    padding-top: 110px;
     padding-bottom: 30px;
   }
   .packag {
@@ -217,10 +215,10 @@ a:hover {
     top: 13%;
   }
   .footer-text a {
-    font-size: 15px;
+    font-size: 13px;
   }
   .footer-text p {
-    font-size: 15px;
+    font-size: 13px;
   }
   .food-icon {
     top: -30px;
@@ -308,6 +306,7 @@ a:hover {
 /*Large devices (laptop, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .main-content-container {
+    padding-top: 20px;
     transform: scale(0.85);
   }
   .logo-name {
@@ -385,6 +384,7 @@ a:hover {
 /*Large devices (Desktop, 992px and up)*/
 @media (min-width: 1199.99px) and (max-width: 1399.99px) {
   .main-content-container {
+    padding-top: 10px;
     transform: scale(0.85);
   }
   .logo-name img {
@@ -413,14 +413,16 @@ a:hover {
 }
 @media (min-width: 1400px) and (max-width: 1599.99px) {
   .main-content-container {
+    padding-top: 60px;
     transform: scale(0.9);
   }
   .footer-content {
-    padding-top: 30px;
+    padding-top: 50px;
   }
 }
 @media (min-width: 1600px) and (max-width: 1899.99px) {
   .main-content-container {
+    padding-top: 70px;
     transform: scale(1.05);
   }
   .footer-content {
@@ -429,7 +431,8 @@ a:hover {
 }
 @media (min-width: 1900px) and (max-width: 2199.99px) {
   .main-content-container {
-    transform: scale(1.2);
+    padding-top: 60px;
+    transform: scale(1.15);
   }
   .footer-content {
     padding-top: 70px;
@@ -437,7 +440,8 @@ a:hover {
 }
 @media (min-width: 2200px) and (max-width: 2499.99px) {
   .main-content-container {
-    transform: scale(1.35);
+    padding-top: 80px;
+    transform: scale(1.4);
   }
   .footer-content {
     padding-top: 70px;
@@ -445,6 +449,7 @@ a:hover {
 }
 @media (min-width: 2500px) and (max-width: 2799.99px) {
   .main-content-container {
+    padding-top: 90px;
     transform: scale(1.45);
   }
   .footer-content {
@@ -453,6 +458,7 @@ a:hover {
 }
 @media (min-width: 2800px) and (max-width: 2999.99px) {
   .main-content-container {
+    padding-top: 70px;
     transform: scale(1.7);
   }
   .footer-content {

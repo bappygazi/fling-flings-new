@@ -54,7 +54,7 @@
                   <p class="mb-0 mb-md-2">Sign up below to get notified when they're ready to Fling. <img style="width: 24px" src="./images/point-down.png" alt="point-down.png" class="img-fluid" /></p>
                 </div>
                 <div class="email-phone-box">
-                  <form>
+                  <form action="https://flingflings.us20.list-manage.com/subscribe/post?u=897d7da3c892aa39f4cfdc7af&amp;id=437c5ce02c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div class="mb-2 mb-lg-3">
                       <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="email address" />
                     </div>
@@ -70,7 +70,7 @@
               </div>
             </div>
             <div class="col-lg-6 col-md-6">
-              <div class="world-logo text-center">
+              <div class="world-logo text-center pt-lg-5">
                 <img src="./images/word-logo.png" alt="word-logo" class="img-fluid w-50" />
               </div>
             </div>
@@ -82,10 +82,10 @@
                   <a href="#">
                     <img width="30" height="30" src="./images/tiktok.png" alt="tiktok" class="img-fluid" />
                   </a>
-                  <a class="mx-2" href="#">
+                  <a class="mx-2" href="https://www.instagram.com/flingflings/">
                     <img width="30" height="30" src="./images/instagram.svg" alt="instagram" class="img-fluid" />
                   </a>
-                  <a href="#">
+                  <a href="https://open.spotify.com/playlist/7JFNLH9Wg2MOZmPzSIAk5O?si=xqO-1lJRQsGd__lINpeAMA&utm_source=copy-link">
                     <img width="30" height="30" src="./images/spotify.svg" alt="spotify" class="img-fluid" />
                   </a>
                 </div>
@@ -105,6 +105,28 @@
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/fullpage.min.js"></script>
+    <!-- mailchimp js -->
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <!-- Custom js  -->
     <script src="js/custom.js"></script>
+
+    <script type="text/javascript">
+      (function ($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+        fnames[4] = "PHONE";
+        ftypes[4] = "phone";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
+    <script type="text/javascript">
+      $(function () {
+        $(".submited").click(function () {
+          $(this).text("SUBMITTED");
+        });
+      });
+    </script>
   </body>
 </html>
