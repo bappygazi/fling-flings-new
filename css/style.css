@@ -168,14 +168,14 @@ a:hover {
   font-family: Agrandir-Bold;
 }
 /*Medium devices (maobile  768px )*/
-@media (max-width: 767.98px) {
+@media (min-width: 400px) and (max-width: 767.98px) {
   .main-content-container {
+    padding-top: 80px;
     transform: scale(0.85);
   }
   .main-cotent-text .coming-soon-text h3 {
     font-size: 65px;
     line-height: 65px;
-    padding-top: 80px;
   }
   .main-cotent-text .coming-soon-text h4 {
     font-size: 25px;
@@ -201,7 +201,7 @@ a:hover {
     width: 47px !important;
   }
   .world-logo {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 30px;
   }
   .packag {
