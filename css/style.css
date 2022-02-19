@@ -429,13 +429,23 @@ a:hover {
     padding-top: 70px;
   }
 }
-@media (min-width: 1900px) and (max-width: 2199.99px) {
+@media (min-width: 1900px) and (max-width: 2000px) {
   .main-content-container {
     padding-top: 60px;
     transform: scale(1.15);
   }
   .footer-content {
     padding-top: 70px;
+  }
+}
+
+@media (min-width: 2001px) and (max-width: 2199.99px) {
+  .main-content-container {
+    padding-top: 90px;
+    transform: scale(1.15);
+  }
+  .footer-content {
+    padding-top: 120px;
   }
 }
 @media (min-width: 2200px) and (max-width: 2499.99px) {
