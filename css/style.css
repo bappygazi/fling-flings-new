@@ -167,6 +167,67 @@ a:hover {
   color: #fff6e8;
   font-family: Agrandir-Bold;
 }
+/*Medium devices (maobile  399px )*/
+
+@media (max-width: 399px) {
+  .main-content-container {
+    padding-top: 18px;
+    transform: scale(0.85);
+  }
+  .main-cotent-text .coming-soon-text h3 {
+    font-size: 65px;
+    line-height: 65px;
+  }
+  .main-cotent-text .coming-soon-text h4 {
+    font-size: 25px;
+  }
+  .main-cotent-text .coming-soon-text p {
+    font-size: 16px;
+    margin-bottom: 5px !important;
+    line-height: 24px;
+  }
+  .phone-number span {
+    left: -25px;
+    font-size: 16px;
+  }
+  .email-phone-box .form-control {
+    height: 55px;
+    font-size: 16px;
+  }
+  .email-phone-box .btn {
+    height: 55px;
+    width: 150px;
+  }
+  .world-logo img {
+    width: 47px !important;
+  }
+  .world-logo {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .packag {
+    right: 0;
+    bottom: 35px;
+    width: 75px;
+  }
+  .strawberry-top {
+    right: 28px;
+    width: 60px;
+    top: 18%;
+  }
+  .footer-text a {
+    font-size: 13px;
+  }
+  .footer-text p {
+    font-size: 13px;
+  }
+  .food-icon {
+    top: -30px;
+    left: -45px;
+    width: 97px;
+  }
+}
+
 /*Medium devices (maobile  768px )*/
 @media (min-width: 400px) and (max-width: 767.98px) {
   .main-content-container {
