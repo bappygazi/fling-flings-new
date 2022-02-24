@@ -94,7 +94,7 @@ a:hover {
 }
 
 .email-phone-box .form-control::placeholder {
-  color: #ff702a;
+  color: #ff4c01;
 }
 
 .email-phone-box .btn {
@@ -202,7 +202,7 @@ a:hover {
     width: 47px !important;
   }
   .world-logo {
-    padding-top: 100px;
+    padding-top: 65px;
     padding-bottom: 30px;
   }
   .packag {
