@@ -168,7 +168,18 @@ a:hover {
   font-family: Agrandir-Bold;
 }
 /*Medium devices (maobile  399px )*/
-
+@media (max-height: 700px) {
+  .main-content-container {
+    padding-top: 60px;
+  }
+  .main-cotent-text .coming-soon-text h3 {
+    font-size: 60px !important;
+    line-height: 57px !important;
+  }
+  .world-logo {
+    padding-top: 60px !important;
+  }
+}
 @media (max-width: 399px) {
   .main-content-container {
     padding-top: 18px;
@@ -229,6 +240,7 @@ a:hover {
 }
 
 /*Medium devices (maobile  768px )*/
+
 @media (min-width: 400px) and (max-width: 767.98px) {
   .main-content-container {
     padding-top: 80px;
