@@ -382,7 +382,14 @@ a:hover {
     line-height: 13px;
   }
 }
-
+@media (min-height: 850px) and (max-height: 950px) {
+  .mobile-footer {
+    left: 50%;
+    bottom: 5px;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+}
 /*Large devices (laptop, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .main-content-container {
@@ -518,7 +525,6 @@ a:hover {
     padding-top: 70px;
   }
 }
-
 @media (min-width: 2001px) and (max-width: 2199.99px) {
   .main-content-container {
     padding-top: 90px;
